@@ -1,6 +1,6 @@
 // just web scraping points for DOM manipulation lesson in ironhack
 // https://news.ycombinator.com/
-
+let no = document.querySelectorAll(".subline");
 let pointsElement;
 let articlesArray = [];
 for (let i = 0; i < no.length - 1; i++) {
